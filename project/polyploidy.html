@@ -21,21 +21,21 @@
 	<!-- Page Info -->
 	<link rel="shortcut icon" href="/images/logo.png">
 	<title>Polyploidy – Tiley Lab - Plant Evolution</title>
-	<meta name="description" content="Diversification, key innovation, and the grand challenges
+	<meta name="description" content="Local adaptation, speciation, and the drivers of ecosystem change
 ">
 
 	<!-- Twitter Card -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Polyploidy – Tiley Lab - Plant Evolution">
-	<meta name="twitter:description" content="Diversification, key innovation, and the grand challenges
+	<meta name="twitter:description" content="Local adaptation, speciation, and the drivers of ecosystem change
 ">
-	<meta name="twitter:image:src" content="http://localhost:4000/images/static-content/grassdist-resized.png">
+	<meta name="twitter:image:src" content="http://localhost:4000/images/projects/chromosomes-1-resized.png">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="Polyploidy – Tiley Lab - Plant Evolution" />
-	<meta property="og:description" content="Diversification, key innovation, and the grand challenges
+	<meta property="og:description" content="Local adaptation, speciation, and the drivers of ecosystem change
 " />
-	<meta property="og:image" content="http://localhost:4000/images/static-content/grassdist-resized.png" />
+	<meta property="og:image" content="http://localhost:4000/images/projects/chromosomes-1-resized.png" />
 
 	
 	<!-- Font Embed Code -->
@@ -74,7 +74,7 @@
 
 	<header class="header">
 
-	<div class="header-image header-image--on" style="background-image: url(/images/static-content/grassdist-resized.png);"></div>
+	<div class="header-image header-image--on" style="background-image: url(/images/projects/chromosomes-1-resized.png);"></div>
 	<div class="header-image"></div>
 
 	<div class="header-overlay"></div>
@@ -122,6 +122,10 @@
 					
 					<li class="menu__list__item">
 						<a href="/teaching" class="menu__list__item__link">Teaching</a>
+					</li>
+					
+					<li class="menu__list__item">
+						<a href="/contact" class="menu__list__item__link">Contact</a>
 					</li>
 					
 				</ul>
@@ -201,14 +205,14 @@
 	
 	<div class="page">
 
-		<div class="page__content" data-page-title="Polyploidy – Tiley Lab - Plant Evolution" data-image="/images/static-content/grassdist-resized.png">
+		<div class="page__content" data-page-title="Polyploidy – Tiley Lab - Plant Evolution" data-image="/images/projects/chromosomes-1-resized.png">
 
 			<section class="intro">
 
 	<div class="wrap">
 
 		<h1>Polyploidy</h1>
-		<p>inferring the presence of polyploidy and its importance in plants</p>
+		<p>polyploidy as a pathway to speciation and key innovations</p>
 
 	</div>
 
@@ -218,30 +222,36 @@
 
 	<div class="wrap">
 
-		<h3 id="diversification-key-innovation-and-the-grand-challenges">Diversification, key innovation, and the grand challenges</h3>
+		<h3 id="local-adaptation-speciation-and-the-drivers-of-ecosystem-change">Local adaptation, speciation, and the drivers of ecosystem change</h3>
 
-<p>Polyploidy was long appreciated in plants, but took on a new importance since the advent of genomics as it simultaneously became a source of novelty and a bioinformatic challenge. I have worked on methods for detecting ancient whole-genome duplications (WGDs) with distributions of evolutionary distances between paralogs within a species <sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> or distributions of gene count data <sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup> or gene trees <sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup> to place WGDs in a phylogenetic context. I am broadly interested in the consequences of polyploidy on genome architecture and gene family evolution.<br /></p>
+<p>Polyploidy was long appreciated in plants, but took on a new importance since the advent of genomics as it simultaneously became a source of novelty and a challenge to many assumptions of molecular evolution derived from diploids. The lab is currently focused on neopolyploids and how increases in ploidy within a species can lead to niche diversfication and local adaptation to future climate change conditions. While organismally focused in a few grass lineages, the lab is interesting in developing methods that facilitate population genomic analyses of polyploids <sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> and several packages and pipelines are underway. By using some widely-distributed species as models, the lab aims to pair the large-scale inferential power of population genomics with field and controlled experiments to demonstrate expected versus observed effects of polyploidy on traits such as drought tolerance.</p>
 
-<p>I am currently investigating how phasing data in polyploids can be useful for population genomics and inferring phylogenetic networks. This includes developing methods and pipelines for phasing <sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>, and how to apply those phased data to demographic analyses under the coalescent. Polyploids were usually tossed from population genetic studies or dealt with in a way that makes strong assumptions about the polyploidy mechanism. My goal is to get everybody to the haploid level so we can work with mixed ploidy systems under a unified coalescent framework. We are just scratching the surface of developing and applying these methods, but simulations suggest there can be large benefits to phasing on network estimation with allopolyploids.<br /></p>
+<p><img src="/images/projects/madgrass-overview.png" />
+<strong>Unpublished figure from Tiley et al. in prep</strong> Expected distribution of <em>Loudetia simplex</em> in Madagasscar and demographic histories of tetraploids versus hexaploids. Linear discriminate analyses show associations between environment and ploidy.</p>
 
-<p><img src="/images/projects/2020-08-02-polyploidy/D.png" />
-<strong>Figure 2 from Tiley et al. 2021 <sup id="fnref:4:1"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup></strong> Simulation results for whether a network is correct given different treatments of the sequence data as phased as unphased. Either having all of the phased haplotypes (phased) or simply having one phased haplotype sampled per locus (pick one) seems to do well across all simulation conditions with 40 or more loci. A consensus approach also works well once enough loci are sampled. Treating allopolyploid data as an unphased diploid (genotype) can be problematic even as the number of loci increase though.<br /></p>
+<h3 id="ancient-whole-genome-duplication-and-diversification">Ancient whole-genome duplication and diversification</h3>
 
-<p>The utility of genotyping and phasing polyploids is not yet clear, at least to me. Will correctly genotyping individuals at various ploidy levels lead to better estimates of site frequency spectra and ultimately more accurate model inferences? I am working on these areas now as part of <a href="/madgrass">MADGRASS</a>.<br /></p>
+<p>Previously, ancient whole-genome duplications (WGDs) have also been a priority with several methods for detecting ancient WGDs developed that use distributions of evolutionary distances between paralogs within a species <sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>, distributions of gene count data accompanied by a phylogeny <sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup>, or gene trees <sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup> to place WGDs in a phylogenetic context. The lab remains broadly interested in the consequences of polyploidy on genome architecture and gene family evolution and new projects that investigate the evolutionary contributions of ancient WGDs are expected. Polyploidy in the context of allpolyploid complexes are also a topic of interest and this led to a pipeline for phasing homeologous short-read data <sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">5</a></sup>. Phased data can help include poplyploids in population genomics investigations, but there are still a number of assumptions regarding auto- and allopolyploids to resolve.<br /></p>
+
+<p><img src="/images/projects/PATE-resized.png" />
+<strong>Figure 2 from Tiley et al. 2024 <sup id="fnref:5:1"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">5</a></sup></strong> Pipeline of mapping reads back to consensus loci and binning phasing subproblems to make the computation tractable. It is possible to treat all individuals as there own reference when working with a collection of species or to use a sinlge reference when working with populations pf the same or similar species.<br /></p>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1">
-      <p><strong>Tiley GP</strong>, Barker MS, Burleigh JG. 2018. <a href="https://academic.oup.com/gbe/article/10/11/2882/5100828">Assessing the Performance of <em>Ks</em> Plots for Detecting Ancient Whole Genome Duplications.</a> <em>Genome Biology and Evolution</em> 10:2882-2898. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><strong>Tiley GP</strong>, Crowl AA, Almary TOM, Luke WRQ, Solofondranohatra CL, Besnard G, Lehmann CER, Yoder AD, Vorontsova MS. 2023. <a href="https://nph.onlinelibrary.wiley.com/doi/full/10.1002/ppp3.10437">Genetic variation in <em>Loudetia simplex</em> supports the presence of ancient grasslands in Madagascar.</a> <em>Plants People Planet</em> 6:315-329 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:2">
-      <p><strong>Tiley GP</strong>, Ané C, Burleigh JG. 2016. <a href="https://academic.oup.com/gbe/article/8/4/1023/2574077">Evaluating and characterizing ancient whole-genome duplications in plants with gene count data.</a> <em>Genome Biology and Evolution</em> 8:1023-1037. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><strong>Tiley GP</strong>, Barker MS, Burleigh JG. 2018. <a href="https://academic.oup.com/gbe/article/10/11/2882/5100828">Assessing the Performance of <em>Ks</em> Plots for Detecting Ancient Whole Genome Duplications.</a> <em>Genome Biology and Evolution</em> 10:2882-2898. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:3">
-      <p>Li Z<sup>†</sup>,<strong>Tiley GP<sup>†</sup></strong>, Galuska SR, Reardon CR, Kidder TI, Rundell RJ, Barker MS. 2018. <a href="https://www.pnas.org/content/115/18/4713.short">Multiple large-scale gene and genome duplications during the evolution of hexapods.</a> <em>PNAS</em> 115:4713-4718. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p><strong>Tiley GP</strong>, Ané C, Burleigh JG. 2016. <a href="https://academic.oup.com/gbe/article/8/4/1023/2574077">Evaluating and characterizing ancient whole-genome duplications in plants with gene count data.</a> <em>Genome Biology and Evolution</em> 8:1023-1037. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:4">
-      <p><strong>Tiley GP</strong>, Crowl AA, Manos PS, Sessa EB, Solís-Lemus C, Yoder AD, Burleigh JG. 2021. <a href="https://www.biorxiv.org/content/10.1101/2021.05.04.442457v1.abstract">Phasing alleles improves network inference with allopolyploids</a> <em>bioRxiv</em> doi: https://doi.org/10.1101/2021.05.04.442457<br /> <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:4:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+      <p>Li Z<sup>†</sup>,<strong>Tiley GP<sup>†</sup></strong>, Galuska SR, Reardon CR, Kidder TI, Rundell RJ, Barker MS. 2018. <a href="https://www.pnas.org/content/115/18/4713.short">Multiple large-scale gene and genome duplications during the evolution of hexapods.</a> <em>PNAS</em> 115:4713-4718. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p><strong>Tiley GP</strong>, Crowl AA, Manos PS, Sessa EB, Solís-Lemus C, Yoder AD, Burleigh JG. 2024. <a href="https://academic.oup.com/sysbio/advance-article-abstract/doi/10.1093/sysbio/syae024/7669043">Benefits and Limits of Phasing Alleles for Network Inference of Allopolyploid Complexes.</a> <em>Systematic Biology</em> syae024. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:5:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
     </li>
   </ol>
 </div>
